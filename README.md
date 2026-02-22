@@ -1,9 +1,7 @@
 # Grazioso Salvare Animal Shelter Dashboard
 
 **Developer:** Ebony Jones
-
 **Course:** CS 340 - Client/Server Development 
-
 **Date:** February 2026
 
 ---
