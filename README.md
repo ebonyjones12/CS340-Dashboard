@@ -154,4 +154,3 @@ CS340-Dashboard/
 
 **Developer:** Ebony Jones  
 **Course:** CS 340 - Client/Server Development  
-**Institution:** Southern New Hampshire University
