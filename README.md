@@ -150,6 +150,22 @@ CS340-Dashboard/
 
 ---
 
+## Reflection
+
+**How do you write programs that are maintainable, readable, and adaptable?**
+
+I focus on writing clean code that separates different responsibilities into their own pieces. The CRUD Python module I built for Project One is a good example of this. Instead of writing database code directly in my dashboard, I created a separate module with methods for create, read, update, and delete operations. This made my code easier to read because anyone looking at the dashboard code can see what it's doing without getting lost in database details. It also made the code adaptable because when I needed to connect the dashboard to MongoDB in Project Two, I just imported the module and called its methods. The CRUD module could easily be reused in other projects too, like a mobile app or a different web interface that needs to work with the same animal shelter database.
+
+**How do you approach a problem as a computer scientist?**
+
+I start by understanding what the client actually needs, then I break the problem down into smaller parts. For the Grazioso Salvare project, I looked at their requirements for finding rescue dogs and figured out what data I needed, how to filter it, and how to display it. This was different from earlier coursework where I might just jump into coding. Here I had to think about the whole system - the database structure, the queries, the user interface, and how everything connects. In the future, I would use this same approach of understanding requirements first, then designing the database schema to match what the client needs, and building modular components that can be tested separately before putting them together.
+
+**What do computer scientists do, and why does it matter?**
+
+Computer scientists solve problems by building tools that help people work smarter. For Grazioso Salvare, they needed a way to quickly find dogs that would be good candidates for different types of rescue training. Without this dashboard, someone would have to manually search through thousands of animal records. Now they can click a button and instantly see all the dogs that match their criteria, along with a map showing where each animal is located. This saves them hours of work and helps them find and train rescue animals faster, which ultimately means more lives saved during disasters and emergencies.
+
+---
+
 ## Contact
 
 **Developer:** Ebony Jones  
